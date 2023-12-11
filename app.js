@@ -1,6 +1,3 @@
-require('dotenv').config({ path: 'github.env' });
-const fetch = require('node-fetch');
-
 function diffCalc() {
     const diff =
         (new Date().getTime() - new Date("December 30, 2000").getTime()) /
